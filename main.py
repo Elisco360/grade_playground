@@ -1,5 +1,6 @@
 import streamlit as st
 
+st.set_page_config(page_icon='🥴', page_title='Ermm 🤷🏾‍♂️, suggest a name')
 
 # Function to parse the score input
 def parse_score(assessment_score: str) -> object:
